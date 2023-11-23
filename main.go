@@ -59,5 +59,5 @@ func main() {
 	r.Handle("/temperature", mux.HandlerFunc(handleTemperature))
 	r.Handle("/lamp", mux.HandlerFunc(handleLamp))
 
-	log.Fatal(coap.ListenAndServe("udp", ":5688", r))
+	log.Fatal(coap.ListenAndServe("udp", "localhost:5000", r))
 }

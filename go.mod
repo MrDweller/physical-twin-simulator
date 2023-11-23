@@ -1,6 +1,6 @@
 module github.com/MrDweller/physical-twin-simulator
 
-go 1.21.1
+go 1.21
 
 require github.com/plgd-dev/go-coap/v3 v3.2.0
 
